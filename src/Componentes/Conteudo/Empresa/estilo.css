@@ -1,0 +1,41 @@
+.secao-empresa{
+    background-color: #f8f7ff;
+    padding: 100px 20px;
+    text-align: center;
+}
+.secao-sobre p{
+    line-height: 32px;
+}
+.box-cards{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box-cards img, .box-cards div{
+    width: 50%;
+    max-height: 300px;
+    border: 1px solid #a2adad;
+}
+.box-cards img{
+    object-fit: cover;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 20px 25px;
+
+}
+.box h4{
+  font-size: 36px;
+  text-transform: uppercase;
+  font-family: 'Anybody', cursive;
+  letter-spacing: 5px;
+  line-height: 42px;
+}
+.box p{
+  font-size: 22px;
+  color: #4a4a4a;
+}
